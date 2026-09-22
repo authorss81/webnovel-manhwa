@@ -54,9 +54,13 @@ jobs:
           bash scripts/manhwa_runner.sh "${{ needs.select-phase.outputs.phase }}"
         continue-on-error: true
       - run: |
+          pip install pillow -q
+          python3 scripts/bundle.py "${{ needs.select-phase.outputs.phase }}" || true
+      - run: |
           git config user.name "manhwa-bot"
           git config user.email "manhwa-bot@users.noreply.github.com"
-          git add workspace out || true
+          git add workspace || true
+          git add "out/${{ needs.select-phase.outputs.phase }}/chapter.html" "out/${{ needs.select-phase.outputs.phase }}/score.json" 2>/dev/null || true
           git diff --cached --quiet || git commit -m "manhwa: ${{ needs.select-phase.outputs.phase }}"
           for i in 1 2 3 4 5; do git push origin main && break; git pull --rebase origin main || true; sleep 3; done
       - uses: actions/upload-artifact@v7
@@ -65,6 +69,14 @@ jobs:
           name: ${{ needs.select-phase.outputs.phase }}
           path: out/${{ needs.select-phase.outputs.phase }}/
           if-no-files-found: ignore
+          retention-days: 7
+          compression-level: 9
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          P="${{ needs.select-phase.outputs.phase }}"
+          gh release view "ch-$P" >/dev/null 2>&1 || gh release create "ch-$P" --title "Chapter $P" --notes "Solo-Leveling-style scroll for $P" 2>/dev/null || true
+          gh release upload "ch-$P" "out/$P/"*.jpg "out/$P/chapter.html" --clobber 2>/dev/null || echo "::warning::release upload failed"
   retrigger:
     needs: [select-phase]
     if: always() && needs.select-phase.outputs.exists == 'true'
