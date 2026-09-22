@@ -12,8 +12,30 @@ def bundle(phase: str):
     if not imgs:
         print(f"{phase}: nothing to bundle"); return False
     try:
-        from PIL import Image
-        ims = [Image.open(f).convert("RGB") for f in imgs]
+        from PIL import Image, ImageDraw, ImageFont
+        try:
+            font = ImageFont.truetype("arial.ttf", 30)
+        except Exception:
+            font = ImageFont.load_default()
+        def bubble(im, text):
+            d = ImageDraw.Draw(im)
+            words, lines, cur = text.split(), [], ""
+            for w_ in words:
+                cur = (cur + " " + w_).strip()
+                if d.textlength(cur, font=font) > im.width - 80:
+                    lines.append(cur); cur = ""
+            if cur:
+                lines.append(cur)
+            lines = lines[:3]
+            h = 30 + 38 * len(lines)
+            d.rounded_rectangle([20, 20, im.width - 20, 20 + h], radius=18, fill="white", outline="black", width=3)
+            y = 32
+            for ln in lines:
+                d.text((40, y), ln, fill="black", font=font); y += 38
+            return im
+        dialog = {p["id"]: p.get("dialogue", "") for p in panels}
+        ids = [p["id"] for p in panels if (outd / f"panel{p['id']:02d}.jpg").exists()]
+        ims = [bubble(Image.open(outd / f"panel{i:02d}.jpg").convert("RGB"), dialog.get(i, "")) for i in ids]
         w = min(i.width for i in ims)
         ims = [i.resize((w, int(i.height * w / i.width))) for i in ims]
         strip = Image.new("RGB", (w, sum(i.height for i in ims)), "black")

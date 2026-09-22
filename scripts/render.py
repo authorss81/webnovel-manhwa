@@ -4,7 +4,7 @@ import json, time, os, urllib.request, urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STYLE = "full color Korean webtoon style, solo leveling manhwa, clean cel shading, vertical composition, modern characters"
+STYLE = "inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters"
 BASE_CHAR = "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes"
 
 def pollinations(prompt, w=768, h=1344, seed=777, model="flux", out=None):
@@ -23,17 +23,27 @@ def pollinations(prompt, w=768, h=1344, seed=777, model="flux", out=None):
     return False
 
 def default_panels(source_txt: str):
-    # fallback 8-panel template from chapter text (opencode replaces with better beats)
-    return [
-        {"id": 1, "shot": "wide city countdown", "prompt": f"{BASE_CHAR} on balcony overlooking Shenzhen night city glowing violet countdown in sky, {STYLE}", "dialogue": "The sky was counting down.", "seed": 777},
-        {"id": 2, "shot": "closeup face", "prompt": f"closeup {BASE_CHAR} tired face lit by violet light, {STYLE}", "dialogue": "00:03:42... Load-bearing exceeded.", "seed": 778},
-        {"id": 3, "shot": "street panic", "prompt": f"crowded Shenzhen street panic below skyscrapers violet sky, {STYLE}", "dialogue": "The screaming started an hour ago.", "seed": 779},
-        {"id": 4, "shot": "action resolve", "prompt": f"{BASE_CHAR} standing gripping railing wind blowing, glowing cracks in sky, dynamic, {STYLE}", "dialogue": "I have to go down.", "seed": 780},
-    ]
+    # extractive fallback: real beats from THIS chapter (opencode replaces with better beats)
+    import re
+    body = source_txt.split("\n\n", 1)[-1]  # drop title header line
+    sents = [s.strip() for s in re.split(r"(?<=[.!?])\s+", body) if 30 < len(s.strip()) < 220]
+    if not sents:
+        sents = [source_txt[:120]]
+    n = min(6, max(4, len(sents) // 8))
+    idxs = [int(i * (len(sents) - 1) / max(1, n - 1)) for i in range(n)]
+    shots = ["wide establishing", "closeup face", "action beat", "tension beat", "reaction", "cliffhanger"]
+    out = []
+    for k, si in enumerate(idxs):
+        line = sents[si][:90]
+        out.append({"id": k + 1, "shot": f"{shots[k % len(shots)]}: {line[:50]}",
+                    "prompt": f"{BASE_CHAR}, {shots[k % len(shots)]}, scene: {line}, {STYLE}",
+                    "dialogue": line, "seed": 777 + k})
+    return out
 
 def render_phase(phase: str):
     pd = ROOT / "workspace" / phase
-    panels = json.loads((pd / "panels.json").read_text(encoding="utf-8"))
+    pf = pd / "panels.json"
+    panels = json.loads(pf.read_text(encoding="utf-8")) if pf.exists() else []
     if not panels:
         src = (pd / "source.txt").read_text(encoding="utf-8")[:2000]
         panels = default_panels(src)
