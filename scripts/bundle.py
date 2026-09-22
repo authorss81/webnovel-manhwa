@@ -19,19 +19,25 @@ def bundle(phase: str):
             font = ImageFont.load_default()
         def bubble(im, text):
             d = ImageDraw.Draw(im)
+            text = text[:140]
+            try:
+                font = ImageFont.truetype("arial.ttf", max(22, im.width // 26))
+            except Exception:
+                font = ImageFont.load_default()
             words, lines, cur = text.split(), [], ""
             for w_ in words:
-                cur = (cur + " " + w_).strip()
-                if d.textlength(cur, font=font) > im.width - 80:
-                    lines.append(cur); cur = ""
+                t = (cur + " " + w_).strip()
+                if d.textlength(t, font=font) > im.width - 80:
+                    lines.append(cur); cur = w_
             if cur:
                 lines.append(cur)
-            lines = lines[:3]
-            h = 30 + 38 * len(lines)
+            lines = lines[:4]
+            lh = max(30, im.width // 26 + 8)
+            h = 30 + lh * len(lines)
             d.rounded_rectangle([20, 20, im.width - 20, 20 + h], radius=18, fill="white", outline="black", width=3)
             y = 32
             for ln in lines:
-                d.text((40, y), ln, fill="black", font=font); y += 38
+                d.text((40, y), ln, fill="black", font=font); y += lh
             return im
         dialog = {p["id"]: p.get("dialogue", "") for p in panels}
         ids = [p["id"] for p in panels if (outd / f"panel{p['id']:02d}.jpg").exists()]
