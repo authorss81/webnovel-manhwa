@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": 1,
+    "shot": "wide establishing: The sodium content in the Spicy Beef flavor cup no",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, wide establishing, scene: The sodium content in the Spicy Beef flavor cup noodles was three hundred percent of the r, inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "The sodium content in the Spicy Beef flavor cup noodles was three hundred percent of the r",
+    "seed": 777
+  },
+  {
+    "id": 2,
+    "shot": "closeup face: He sat on the balcony of his twenty-fourth-floor a",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, closeup face, scene: He sat on the balcony of his twenty-fourth-floor apartment, legs dangling through the gaps, inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "He sat on the balcony of his twenty-fourth-floor apartment, legs dangling through the gaps",
+    "seed": 778
+  },
+  {
+    "id": 3,
+    "shot": "action beat: The numbers were etched into the atmosphere itself",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, action beat, scene: The numbers were etched into the atmosphere itself, burning with a color that didn't exist, inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "The numbers were etched into the atmosphere itself, burning with a color that didn't exist",
+    "seed": 779
+  },
+  {
+    "id": 4,
+    "shot": "tension beat: He wasn't talking about the balcony.",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, tension beat, scene: He wasn't talking about the balcony., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "He wasn't talking about the balcony.",
+    "seed": 780
+  },
+  {
+    "id": 5,
+    "shot": "reaction: Down on the streets, the screaming had started an ",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, reaction, scene: Down on the streets, the screaming had started an hour ago., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "Down on the streets, the screaming had started an hour ago.",
+    "seed": 781
+  },
+  {
+    "id": 6,
+    "shot": "cliffhanger: Looting had begun in the convenience store across ",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, cliffhanger, scene: Looting had begun in the convenience store across the street., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "Looting had begun in the convenience store across the street.",
+    "seed": 782
+  },
+  {
+    "id": 7,
+    "shot": "wide establishing: His phone buzzed on the metal table.",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, wide establishing, scene: His phone buzzed on the metal table., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "His phone buzzed on the metal table.",
+    "seed": 783
+  },
+  {
+    "id": 8,
+    "shot": "closeup face: He wondered, with a detached curiosity, if the apo",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, closeup face, scene: He wondered, with a detached curiosity, if the apocalypse would count as force majeure in , inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "He wondered, with a detached curiosity, if the apocalypse would count as force majeure in ",
+    "seed": 784
+  }
+]
