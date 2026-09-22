@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": 1,
+    "shot": "wide city countdown",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes on balcony overlooking Shenzhen night city glowing violet countdown in sky, full color Korean webtoon style, solo leveling manhwa, clean cel shading, vertical composition, modern characters",
+    "dialogue": "The sky was counting down.",
+    "seed": 777
+  },
+  {
+    "id": 2,
+    "shot": "closeup face",
+    "prompt": "closeup young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes tired face lit by violet light, full color Korean webtoon style, solo leveling manhwa, clean cel shading, vertical composition, modern characters",
+    "dialogue": "00:03:42... Load-bearing exceeded.",
+    "seed": 778
+  },
+  {
+    "id": 3,
+    "shot": "street panic",
+    "prompt": "crowded Shenzhen street panic below skyscrapers violet sky, full color Korean webtoon style, solo leveling manhwa, clean cel shading, vertical composition, modern characters",
+    "dialogue": "The screaming started an hour ago.",
+    "seed": 779
+  },
+  {
+    "id": 4,
+    "shot": "action resolve",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes standing gripping railing wind blowing, glowing cracks in sky, dynamic, full color Korean webtoon style, solo leveling manhwa, clean cel shading, vertical composition, modern characters",
+    "dialogue": "I have to go down.",
+    "seed": 780
+  }
+]
