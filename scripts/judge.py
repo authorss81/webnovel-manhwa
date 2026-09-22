@@ -9,6 +9,10 @@ def judge(phase: str):
     outd = ROOT / "out" / phase
     panels = json.loads((pd / "panels.json").read_text(encoding="utf-8"))
     res = []
+    # evidence gate: 8+ panels required on EVERY path (no-key fallback included)
+    count_ok = len(panels) >= 8
+    if not count_ok:
+        print(f"{phase}: FAIL count {len(panels)}/8 minimum")
     for p in panels:
         f = outd / f"panel{p['id']:02d}.jpg"
         ok = f.exists() and f.stat().st_size > 10000
@@ -20,8 +24,8 @@ def judge(phase: str):
                     "retry": score < 7})
     (outd / "score.json").write_text(json.dumps(res, indent=2))
     bad = [r for r in res if r["retry"]]
-    print(f"{phase}: {len(res)-len(bad)}/{len(res)} pass")
-    return 1 if bad else 0
+    print(f"{phase}: {len(res)-len(bad)}/{len(res)} pass, count_ok={count_ok}")
+    return 0 if (not bad and count_ok) else 1
 
 if __name__ == "__main__":
     sys.exit(judge(sys.argv[1] if len(sys.argv) > 1 else "phase-001"))
