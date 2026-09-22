@@ -1,0 +1,27 @@
+# secrets / local auth — NEVER push
+client_secret*.json
+*MEGA-RECOVERYKEY*.txt
+*state.json
+raw_export.json
+storage_state.json
+royalroad_state.json
+scribblehub_state.json
+inkstone_state.json
+node_modules/
+video2pdf/
+New folder/
+
+# manhwa build outputs — use Artifacts/Releases, not git
+out/
+manhwa/*.jpg
+manhwa/*.epub
+*.patch
+logs/
+.RUNNER_TEMP/
+
+# keep these
+!novels/*.epub
+!workspace/phase-*/source.txt
+!workspace/phase-*/meta.json
+!workspace/phase-*/panels.json
+client_secret*
