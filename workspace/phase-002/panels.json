@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": 1,
+    "shot": "wide establishing: It wasn't just the sodium or the fat; it was the d",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, wide establishing, scene: It wasn't just the sodium or the fat; it was the depth of it, a richness that coated the t, inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "It wasn't just the sodium or the fat; it was the depth of it, a richness that coated the t",
+    "seed": 777
+  },
+  {
+    "id": 2,
+    "shot": "closeup face: The explosion on the balcony had done its job.",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, closeup face, scene: The explosion on the balcony had done its job., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "The explosion on the balcony had done its job.",
+    "seed": 778
+  },
+  {
+    "id": 3,
+    "shot": "action beat: The sliding glass door was a spiderweb of fracture",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, action beat, scene: The sliding glass door was a spiderweb of fractures., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "The sliding glass door was a spiderweb of fractures.",
+    "seed": 779
+  },
+  {
+    "id": 4,
+    "shot": "tension beat: The \"Endless Cornucopia of Sustenance\" lived up to",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, tension beat, scene: The \"Endless Cornucopia of Sustenance\" lived up to its name., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "The \"Endless Cornucopia of Sustenance\" lived up to its name.",
+    "seed": 780
+  },
+  {
+    "id": 5,
+    "shot": "reaction: \"Inequivalent Exchange,\" he said.",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, reaction, scene: \"Inequivalent Exchange,\" he said., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "\"Inequivalent Exchange,\" he said.",
+    "seed": 781
+  },
+  {
+    "id": 6,
+    "shot": "cliffhanger: It flickered into existence, a translucent overlay",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, cliffhanger, scene: It flickered into existence, a translucent overlay that didn't care about the physics of l, inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "It flickered into existence, a translucent overlay that didn't care about the physics of l",
+    "seed": 782
+  },
+  {
+    "id": 7,
+    "shot": "wide establishing: His muscles didn't bulge; his vision didn't zoom.",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, wide establishing, scene: His muscles didn't bulge; his vision didn't zoom., inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "His muscles didn't bulge; his vision didn't zoom.",
+    "seed": 783
+  },
+  {
+    "id": 8,
+    "shot": "closeup face: [Kill Confirmed: Flesh Scavenger (Lvl 1)]\n\n[Damage",
+    "prompt": "young Chinese male structural engineer Ren Qi, age 24, short black hair, grey hoodie and jeans, determined eyes, closeup face, scene: [Kill Confirmed: Flesh Scavenger (Lvl 1)]\n\n[Damage Dealt: 99,999 (, inked anime line art, bold black outlines, full color Korean webtoon style, solo leveling manhwa, clean cel shading with screentone, vertical panel composition, empty space at top for speech bubble, modern characters",
+    "dialogue": "[Kill Confirmed: Flesh Scavenger (Lvl 1)]\n\n[Damage Dealt: 99,999 (",
+    "seed": 784
+  }
+]
