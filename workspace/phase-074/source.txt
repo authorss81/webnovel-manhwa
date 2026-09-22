@@ -1,0 +1,357 @@
+Chapter 14: Expansion Protocol
+
+# Chapter 14: Expansion Protocol
+
+The ledger didn't care about morality. It only cared about the balance.
+
+Ren Qi sat on the edge of the reception desk, boots resting on the polished marble. The air in the lobby was still cold, a lingering ghost of the liquid nitrogen event, but the heating vents were working overtime, pumping dry, dusty warmth into the cavernous space.
+
+He swiped his finger through the air, manipulating the holographic interface that only he could see.
+
+[Current Assets: 142 Cores (Mixed Grade)]
+
+[Labor Units: 4 (Active)]
+
+[Defensive Rating: 15/100 (Critical)]
+
+[Charisma: 3 (Atrophied)]
+
+Ren stared at the Charisma stat. A normal human averaged a ten. Three was the social equivalent of a brick wall or a venomous snake. He felt the deficit. It wasn't a numbness, exactly. It was a clarity. The background noise of empathy—the little biological pings that asked is she okay? or was that too harsh?—had been silenced.
+
+He looked at Lin Xia.
+
+She was organizing the scavenged canned goods behind the counter. Her hands were shaking. Every time Ren shifted his weight, her shoulders hiked up toward her ears.
+
+Yesterday, that reaction might have bothered him. Today, he just noted the inefficiency. Fear burned calories. Shaking hands dropped inventory.
+
+She dropped a can of peaches. It hit the floor with a heavy thud.
+
+"Yes?" She didn't turn around.
+
+"The perimeter plan," Ren said. "Pull up the schematic for the external walkway."
+
+She fumbled with the tablet he had exchanged for her—a rugged military slate converted from a broken iPad. "I... I have it. The north side is exposed. The fence is gone."
+
+"We aren't rebuilding the fence," Ren said, sliding off the desk. "Fences are for keeping dogs out. We are building a funnel."
+
+He walked to the shattered glass doors. The plywood the Units had nailed up was flimsy. A ghoul could punch through it. A Level 10 Striker would laugh at it.
+
+Ren pushed the door open. The morning fog was waiting.
+
+It wasn't a white mist. It was a dirty, yellowish soup that smelled of wet copper and sewage. Visibility was less than ten meters.
+
+Two men detached themselves from the shadows of the portico. They were wrapped in thick coats, their foreheads bearing the angry red brand of the Contract. Their eyes were hollow. They looked like men who had been awake for thirty hours, which they had.
+
+"Ready, Landlord," Unit 1 rasped.
+
+"Grab the sledgehammers," Ren ordered. "We're going to the street."
+
+The world outside Skyview Garden had ceased to be a city. It was a geography of ruin.
+
+Ren walked down the front steps. His boots crunched on glass, spent shell casings, and the dried husk of a large beetle. The street—North Xingfu Road—was a choke point of abandoned vehicles. Sedans, delivery trucks, a overturned bus that blocked two lanes like a dead whale.
+
+To a survivor, this was cover. To a scavenger, it was a loot box.
+
+To Ren, it was geometry.
+
+The Eye of the Void overlaid a grid onto the asphalt. Green lines marked line-of-sight. Red zones marked blind spots.
+
+The overturned bus created a massive blind spot. Anything could spawn behind it. Anything could ambush them.
+
+"Clear it," Ren said.
+
+Unit 2 hefted a sledgehammer. He looked at the bus. It was ten tons of steel and rubber. "Boss... we can't move that. The tires are gone. The axle is snapped."
+
+Ren looked at Unit 2. He didn't get angry. Anger required emotional investment.
+
+"I didn't say move it," Ren said. "I said clear it."
+
+Ren walked up to the bus. He placed his hand on the rusted flank of the vehicle.
+
+[Target: Wrecked Public Transit Vehicle]
+
+[Composition: Steel, Aluminum, Rubber, Glass, trace Organic Waste.]
+
+It was raw material. It was just pixels waiting to be rearranged.
+
+Ren felt the headache press behind his eyes. The mana cost would be significant. But the Return on Investment (ROI) was higher.
+
+The magic didn't sparkle. It groaned.
+
+The metal of the bus shrieked as the molecular bonds were forcibly rewritten. The rust flaked off in a red cloud. The chassis buckled, imploding inward, not from gravity, but from a command to condense.
+
+Unit 1 and Unit 2 stepped back, shielding their faces.
+
+The bus dissolved. It twisted and flowed like grey taffy, streaming toward the pavement.
+
+Ren visualized the output. He didn't want a vehicle. He wanted denial of area.
+
+[Blueprint: Jersey Barrier (Reinforced)]
+
+The metal reformed. It rose from the asphalt in thick, interlocking slabs. Heavy, waist-high walls of dense steel and compressed rubber, spiked at the top to prevent climbing.
+
+Ren expanded the field. He dragged the mental cursor across the front of his building.
+
+A wall appeared. It wasn't pretty. It was grey, scarred, and industrial. But it turned the open street into a narrow corridor.
+
+[Exchange Successful.]
+
+[Mana Remaining: 65%]
+
+Ren took a breath, stabilizing his core temperature. He tapped the new steel wall. It rang solid.
+
+"Unit 1," Ren said. "Take the hammer. Knock out the windshields of those three sedans. Unit 2, siphon the gas. We need flammables."
+
+The men stared at the wall. They looked at the empty space where the bus had been.
+
+Ren stood in the center of the street. He felt like a player looking at a map. The fog was the 'Fog of War'. The rubble was 'Resource Nodes'.
+
+The sound came from the left. A sewer grate, twenty meters away.
+
+Ren didn't turn his head. His Calculation Speed attribute processed the acoustic data. Metal on concrete. Weight: approx 40kg. Frequency: rapid scratching.
+
+"Contact," Ren said calmly.
+
+The grate exploded upward.
+
+Three shapes poured out. They were low to the ground, moving with jerky, spasmodic speed.
+
+[Target: Sewer Stalkers (Rank F)]
+
+[Attributes: Disease, Pack Tactics.]
+
+They looked like hairless dogs skinned alive, with too many teeth and eyes that glowed a sickly yellow.
+
+Unit 2 screamed. He dropped the gas can.
+
+"Don't run," Ren said. His voice wasn't loud, but it cut through the panic. "The contract will stop your heart before they reach you."
+
+Unit 2 froze. The threat of immediate cardiac arrest outweighed the threat of teeth. He raised his sledgehammer.
+
+The Stalkers charged.
+
+Ren watched. He didn't draw his blade. He needed to test the durability of his assets.
+
+The first Stalker leaped at Unit 1.
+
+Unit 1 swung the hammer. It was a sloppy, desperate swing, fueled by pure adrenaline.
+
+The hammer head caught the beast in mid-air, crushing its ribcage. The creature flew backward, skidding on the wet asphalt.
+
+"Left flank," Ren corrected.
+
+The second Stalker was circling. Unit 2 was too slow. The beast latched onto his forearm, teeth sinking into the heavy coat.
+
+Ren sighed. Inefficient.
+
+[Inequivalent Exchange.]
+
+He didn't target the monster. He targeted the pavement beneath it.
+
+[Target: 1 cubic foot of Asphalt.]
+
+The road erupted. Three jagged stone spears shot up from the ground, impaling the Stalker through the belly. It yelped once and went limp.
+
+Unit 2 kicked the dead weight off his arm. He was breathing hard, staring at the stone spikes that had missed his leg by an inch.
+
+The third Stalker realized the prey was biting back. It turned to run, scrabbling toward the sewer grate.
+
+Ren picked up a loose brick from the gutter.
+
+He weighed it. Calculation Speed took over. Distance: 15 meters. Velocity of target: 8 m/s. Windage: negligible.
+
+The brick didn't just fly; it tracked. It struck the fleeing creature at the base of the skull. The creature folded.
+
+Ren walked over to the bodies.
+
+"Harvest the cores," Ren said. "Check Unit 2 for infection. If the skin is broken, cauterize it with the lighter."
+
+Unit 1 looked at Unit 2, then at Ren. "With a lighter?"
+
+"Infection leads to asset loss," Ren said, turning back to the grid. "Do it."
+
+He walked away as the smell of burning fabric and skin filled the air. He didn't enjoy it. He didn't hate it. It was just maintenance.
+
+By noon, the street looked different.
+
+The erratic mess of the apocalypse had been tidied. The cars were pushed into a secondary barricade line. The loose debris had been exchanged into low walls, creating a zigzag pattern leading to the front door of Skyview Garden.
+
+It was a kill box. Anyone trying to reach the lobby would have to walk through three separate lines of fire.
+
+Ren stood at the intersection of North Xingfu and the Metro Access Road.
+
+This was the edge of his current influence.
+
+The subway entrance for Station 4 was a gaping maw in the concrete. The escalator stairs were gone, ground away by something massive.
+
+A dark, purple mist swirled at the bottom of the entrance. It wasn't the regular fog. It was heavy, pulsating like a bruise.
+
+[Dungeon Gate Detected: The Subterranean Tunnels]
+
+[Difficulty: Level 15-20]
+
+Ren stood at the top of the stairs. The wind coming up from the deep smelled of ozone and rotting mushrooms.
+
+Most "Awakened" would see this as a raid target. Go in, kill the boss, get the loot box. That was the gamer mentality.
+
+Ren shook his head. Raids were high risk. You could die. You could get trapped. And while you were down there, someone else could take your base.
+
+But everyone needed to travel. The subway tunnels were the only way to move across the city without dealing with the open sky and the flying horrors that hunted at night.
+
+People would come here. Not to fight, but to pass through.
+
+Ren looked at the ticket booth at the top of the stairs. It was shattered, covered in graffiti.
+
+"System," Ren murmured.
+
+[Inequivalent Exchange.]
+
+He placed both hands on the concrete archway of the entrance.
+
+[Target: Subway Entrance Structure + 500kg of surrounding Concrete.]
+
+[Input: 10 Cores (Rank F).]
+
+He fed the cores he had harvested from the Stalkers into the exchange. Fuel for the fire.
+
+The concrete flowed. The wide, inviting mouth of the subway station contracted. The archway lowered. The sides pushed in.
+
+It formed a bunker. A squat, heavy pillbox with narrow firing slits and a single, heavy steel turnstile that looked like it belonged in a maximum-security prison.
+
+Above the turnstile, Ren molded the concrete into letters.
+
+It wasn't a dungeon entrance anymore. It was a gate. And he held the key.
+
+Ren turned. Unit 3 came running down the street, waving a piece of black metal. It was the flyer Ren had sent out the night before.
+
+Unit 3 stopped, panting, hands on his knees.
+
+"The Iron Skulls," Unit 3 gasped. "I found their outpost."
+
+"They... they laughed." Unit 3 held up the metal sheet. It was bent, twisted, and smeared with something brown. "They said Skyview is a grocery store. They said they're coming to 'shop' tonight."
+
+Ren took the metal sheet. He looked at the bend in the metal. It took substantial strength to bend an alloy like this.
+
+"How many?" Ren asked.
+
+"Twenty. Maybe thirty. They have a guy... his skin turns to rock. Bullets bounce off him."
+
+Ren nodded. A Rank D defensive talent. Common, but troublesome for conventional weapons.
+
+"They are coming tonight?"
+
+"Sundown," Unit 3 said. "They said to have the 'beef noodles ready'."
+
+Ren looked up at the sky. The sun was a pale smear behind the fog, beginning its descent. Maybe four hours of light left.
+
+He looked at his new walls. He looked at the Toll Booth.
+
+Unit 3 blinked. "Good? There's four of us. And you. They have thirty men."
+
+Ren turned and began walking back toward the lobby.
+
+"We aren't going to fight them," Ren said.
+
+"No," Ren checked his mana reserves. 40%. He needed to eat. "Fighting implies a chance of losing. We are going to process them."
+
+He stopped at the first Watcher's Totem he had planted. The red eye swiveled to look at him.
+
+Ren placed his hand on the spike.
+
+"System. Network Update."
+
+[Network Access Granted.]
+
+Ren visualized the grid again. The kill box he had built. The blind spots he had created intentionally.
+
+He needed turrets. But he didn't have guns.
+
+He had something better.
+
+He reached into his inventory and pulled out the Field of Agony shards he had reclaimed from the lobby floor. The invisible glass.
+
+"Unit 1, Unit 2," Ren called out.
+
+The men looked up from the barricade.
+
+"Take these," Ren handed them the bag of invisible death. "Coat the top of the Jersey barriers. And the ground in sector B."
+
+Ren looked at the Shadow Monarch Egg sitting in his inventory void. It was pulsing. 55/1000 Fear.
+
+"And then," Ren said, "we open the store."
+
+Ren returned to the control room in B1.
+
+He sat in the ergonomic chair. The silence was absolute.
+
+He brought up the Architect’s Blueprint of the block.
+
+He had secured the ground. He had choked the street. He had gated the subway.
+
+But his mana regeneration was the bottleneck. He was drinking mana potions exchanged from energy drinks, but it was slow. He needed a passive generator.
+
+He looked at the basement levels. The Root Chamber below. The Divine Corpse.
+
+It was too dangerous to touch directly. But...
+
+Ren zoomed in on the schematic. The HVAC system ran directly past the sub-basement seal. The air ducts circulated through the entire building.
+
+If he couldn't eat the god, maybe he could inhale it.
+
+"Exchange," Ren whispered to the room.
+
+[Target: HVAC Filtration Unit.]
+
+[Modification: Mana Siphon Intake.]
+
+He couldn't do it yet. He lacked the parts. He needed a core with a suction attribute. Or a vacuum cleaner and a lot of luck.
+
+A notification on the screen.
+
+[Motion Detected: Perimeter.]
+
+Ren looked at Screen 1.
+
+The sun was down. The streetlights flickered, casting long, jagged shadows against his new walls.
+
+At the end of the block, shapes were moving. Heavy shapes. The scraping of metal on pavement. Loud voices. Laughter.
+
+They weren't sneaking. They were marching. They carried torches, bats, and machetes. In the center, a man walked with his shirt off, his skin grey and cracked like dry river mud. The Rock Skin user.
+
+Ren leaned into the microphone.
+
+"All Units," Ren’s voice was calm, amplified by the speakers he had rigged to the external totems. "Return to the lobby. Lock the blast doors."
+
+On the screen, he saw his four Units scramble over the barricades and dive through the front entrance.
+
+The Iron Skulls stopped at the first barrier.
+
+The Rock Skin leader stepped forward. He kicked the steel wall Ren had created from the bus. CLANG.
+
+"Landlord!" the leader shouted. "Knock knock!"
+
+Ren watched the monitor. He watched the grid.
+
+He watched the Fear counter on the Shadow Monarch Egg. It was stagnant. They weren't afraid yet. They were confident.
+
+Ren toggled the external speakers again.
+
+"Welcome to Skyview Garden," Ren said. His voice echoed down the empty street. "Please take a number."
+
+The leader laughed. "Tear it down, boys."
+
+The mob surged forward. They climbed over the first barrier.
+
+Ren watched their hands grasp the top of the wall. The wall he had coated with the Field of Agony.
+
+The screaming started instantly.
+
+It wasn't the scream of battle. It was the scream of surprise. Hands shredded. Nerves exposed.
+
+"Status," Ren whispered.
+
+The numbers ticked up.
+
+Ren sat back in his chair. He opened a cup of instant noodles.
+
+The Tower Defense had begun. And the exchange rate was looking favorable.
