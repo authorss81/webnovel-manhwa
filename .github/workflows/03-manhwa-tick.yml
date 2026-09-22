@@ -11,7 +11,8 @@ jobs:
   tick:
     runs-on: ubuntu-latest
     steps:
-      - env: {GH_TOKEN: ${{ github.token }}}
+      - env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           N=$(gh api "/repos/${GITHUB_REPOSITORY}/actions/runs?status=in_progress&per_page=20" --jq '[.workflow_runs[] | select(.name | startswith("02-"))] | length')
           [ "$N" != "0" ] && { echo "pipeline running, skip"; exit 0; }
